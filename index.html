@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8">
-      $("img").bind('load', function() {
-         window.location.href = "http://breakfastdefectors.com";
+      $(document).ready(function(){
+        $("img").bind('load', function() {
+           window.location.href = "http://breakfastdefectors.com";
+        });
       });
     </script>
   </head>
